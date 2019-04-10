@@ -1,0 +1,65 @@
+/*Defining fonts*/
+h1 {
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial;
+}
+
+/*defining sizes of divs and spans*/
+.wrapper {
+    margin: auto;
+    width: 97%;
+    height: 650px;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.navbar {
+    float: left;
+    margin: auto;
+    width: 20%;
+    height: 96%;
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.projecttilespace {
+    float: right;
+    margin: auto;
+    width: 75%;
+    height: 96%;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+.projectcard {
+    display: inline-block;  
+    height: 400px;
+    width: 32.333%;
+    background-color: orange;
+}
+
+.footer {
+    margin: 10px;
+    height: 30px;
+    width: 97%;
+    border: 3px solid black;
+    padding: 10px;
+}
