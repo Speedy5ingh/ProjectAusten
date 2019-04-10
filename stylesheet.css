@@ -3,6 +3,7 @@ h1 {
     font-size: 40px;
     font-family: Arial;
     font-weight: bold;
+    text-align: center;
 }
 
 h2 {
@@ -40,21 +41,51 @@ p {
     padding: 10px;
 }
 
-.projecttilespace {
+.projectcardspace {
     float: right;
     margin: auto;
     width: 75%;
-    height: 96%;
     border: 3px solid red;
-    padding: 10px;
 }
 
 .projectcard {
-    display: inline-block;  
-    height: 400px;
-    width: 32.333%;
+    float: left;
+    width: 33.333%;
     background-color: orange;
 }
+
+.postcard {
+    width: 95%;
+    background-color: yellow;
+    margin: auto;
+}
+
+.featuredimagecontainer {
+    width: 95%;
+    background-color: green;
+    margin: auto;
+}
+
+.postcardimage {
+    max-width: 100%;
+}
+
+.postheader {
+    max-width: 95%;
+    background-color: blue;
+    margin: auto;
+}
+
+.postexcerpt {
+    max-width: 95%;
+    background-color: aqua;
+    margin: auto;
+}
+
+
+
+
+
 
 .footer {
     margin: 10px;
